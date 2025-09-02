@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Profil et CV de BAHLOUL Rami – Étudiant en M2 Cybersécurité / Intelligence Artificielle.">
+    <meta name="author" content="BAHLOUL Rami">
+    <title>Profil – BAHLOUL Rami</title>
+
+    <!-- Police Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #305c74;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .profile-pic {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .info h2 {
+            margin-bottom: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .info p {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 14px;
+        }
+
+        .contact a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #305c74;
+            border-top: 2px solid #305c74;
+            border-bottom: 2px solid #305c74;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 0;
+        }
+
+        .two-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .job {
+            margin-bottom: 15px;
+        }
+
+        .job-title {
+            display: inline-block;
+            padding: 6px 12px;
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+            background-color: transparent;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .job-title:hover {
+            background-color: #305c74;
+            color: white;
+        }
+
+        .job-date {
+            color: #555;
+            font-size: 0.9em;
+            margin: 5px 0;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .section ul li {
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .two-columns {
+                grid-template-columns: 1fr;
+            }
+
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .contact {
+                justify-content: center;
+            }
+        }
+
+        .resume-professionnel {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto 30px auto;
+        }
+
+        .resume-professionnel p {
+            font-size: 1em;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="ramia.jpg" alt="Photo de profil" class="profile-pic">
+        <div class="info">
+            <h2>BAHLOUL Rami</h2>
+            <p>À la recherche d’un PFE en Sécurité / IA en M2 et Diplôme d’Ingénieur d’État</p>
+            <div class="contact">
+                <span>📧 <a href="mailto:r_bahloul@estin.dz">r_bahloul@estin.dz</a></span>
+                <span>📞 <a href="tel:+2120552311252">+213 05 52 31 12 52</a></span>
+                <span>📍 <a href="https://www.google.com/maps/search/Khenchela" target="_blank">Khenchela</a></span>
+                <span>🔗 <a href="https://www.linkedin.com/in/ramibahloul-573846230" target="_blank">LinkedIn</a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="two-columns">
+            <!-- Colonne gauche -->
+            <div>
+                <div class="section">
+                    <h2>💼 Expérience Professionnelle</h2>
+                    <div class="job">
+                        <a href="https://www.linkedin.com/company/casc-root/posts/?feedView=all" target="_blank"
+                            class="job-title">CascRoot – CTF
+                            Player</a>
+                        <div class="job-date">02/2025 – Présent</div>
+                        <ul>
+                            <li>Participation à des compétitions de cybersécurité : cryptographie(3 ans d’expérience
+                                pratique à travers la participation régulière aux CTFs), reverse engineering,
+                                web/app exploitation, forensics, OSINT et pwn.</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <a href="https://exemple.com/algeriatelecom" target="_blank" class="job-title">Algérie télécom –
+                            Stagiaire Réseaux</a>
+                        <div class="job-date">17/03/2024 – 31/03/2024</div>
+                        <ul>
+                            <li>Configuration et maintenance d’infrastructures réseau.</li>
+                            <li>Travail sur des projets de sécurité réseau et fibre optique.</li>
+                            <li>Configuration et gestion d’équipements Cisco et Huawei.</li>
+                            <li>Collaboration avec une équipe pour garantir des performances optimales.</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <a href="https://exemple.com/nexus" target="_blank" class="job-title">Nexus Security Club –
+                            Responsable Logistique</a>
+                        <div class="job-date">10/2023 – 11/2024</div>
+                    </div>
+                    <div class="job">
+                        <a href="https://exemple.com/schoolofai" target="_blank" class="job-title">School of AI Bejaia –
+                            Responsable Design Graphique</a>
+                        <div class="job-date">11/2022 – 10/2023</div>
+                    </div>
+                </div>
+
+                <!-- Compétences alignées -->
+                <div class="section">
+                    <h2>🛠️ Compétences</h2>
+                    <p><strong>Cybersécurité :</strong> </p>
+                    <p>Pentesting, Analyse de vulnérabilités, Cryptographie, OSINT, Forensic, Exploitation Web &
+                        Application, Sécurité réseau.
+                    </p>
+
+                    <p><strong>Systèmes & Réseaux :</strong> </p>
+                    <p>Linux (Ubuntu, Kali), Administration réseau, Configuration d’équipements Cisco & Huawei,
+                        Virtualisation (VMware, VirtualBox), Sécurité des systèmes.
+                    </p>
+                    <p><strong>Cadres & Normes :</strong> Connaissance des cadres tels que MITRE ATT&CK et NIST et de la
+                        manière dont ils peuvent être appliqués efficacement au sein d'une entreprise.</p>
+
+
+                    <p><strong>Machine Learning et Data Science :</strong> </p>
+                    <p>Python, Pandas, Scikit-learn, Pytorch.
+                    </p>
+
+                    <p><strong>Travail d'équipe :</strong> Avancé</p>
+                    <ul>
+                        <li>Collaboration active au sein d'équipes multidisciplinaires.</li>
+                        <li>Excellente communication, écrite et orale.</li>
+                        <li>Leadership dans la gestion et motivation d’équipes projet.</li>
+                        <li>Résolution de problèmes et prise de décisions.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Colonne droite -->
+            <div>
+                <div class="section">
+                    <h2>🎓 Éducation</h2>
+                    <ul>
+                        <li><b>Baccalauréat Mathématiques</b> – Lycée El Bah Mohamed Lakhdher (2021) – Mention Très Bien
+                        </li>
+                        <li><b>Ingénieur en Informatique – Option Cybersécurité</b> – ESTIN Béjaïa (09/2021 – Présent)
+                        </li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>🌐 Langues</h2>
+                    <ul>
+                        <li><b>Français :</b> Bien</li>
+                        <li><b>Anglais :</b> Bien</li>
+                        <li><b>Arabe :</b> Langue Maternelle</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>📜 Certificats</h2>
+                    <ul>
+                        <li>Jr Penetration Tester – TryHackMe</li>
+                        <li>Privilege Escalation – TryHackMe</li>
+                        <li>Ohsint – TryHackMe</li>
+                        <li>Network Defense – [Institution]</li>
+                        <li>Hackfinity Battle – [Institution]</li>
+                    </ul>
+
+                </div>
+                <div class="section">
+                    <h2>🛡️ Outils de sécurité</h2>
+                    <ul>
+                        <li>Burp Suite</li>
+                        <li>Wireshark</li>
+                        <li>Metasploit</li>
+
+                        <li>Nmap</li>
+                        <li>Ghidra</li>
+                        <li>Nessus</li>
+                        <li>OpenVAS</li>
+                        <li>SpiderFoot</li>
+                        <li>Shodan</li>
+                        <li>Google Dorking</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>🎯 Centres d'intérêt</h2>
+                    <p>Volontariat | Musculation | Football</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Résumé Professionnel -->
+        <div class="section resume-professionnel">
+            <h2>💼 Résumé Professionnel</h2>
+            <p>
+                Ingénieur en informatique en dernière année à l’ESTIN, spécialisé en cybersécurité.
+                Solide expérience en cryptographie, analyse de vulnérabilités et exploitation d’applications web,
+                acquise notamment au sein de l’équipe CascRoot CTF et dans le cadre de projets académiques à l’ESTIN.
+                Maîtrise des environnements Linux, des technologies réseau et des outils de sécurité avancés.
+                Excellente capacité à résoudre des problèmes complexes.
+                Disponible pour un stage ou un poste junior en cybersécurité.
+            </p>
+        </div>
+        <footer style="text-align: center; padding: 20px; background-color: #305c74; color: white;">
+            <p>&copy; 2025 BAHLOUL Rami. Tous droits réservés.</p>
+        </footer>
+
+
+</body>
+
+</html>
